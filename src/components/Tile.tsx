@@ -20,7 +20,7 @@ const Tile = ({tile, togglePossibleMine, reveal}: Props) => {
   const handleLeftClick = () => {
     if (tile.isRevealed) return true; // do nothing if revealed
     reveal(tile);
-  }
+  };
 
   return (
     <span
