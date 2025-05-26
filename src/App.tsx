@@ -33,7 +33,7 @@ const App = () => {
     if (won) {
       setStatus(StatusEnum.WON);
       setTimeout(() => {
-        alert('Congratulations, you won! Try a harder difficulty now.');
+        alert("Congratulations, you’ve won! Now try a harder difficulty.");
       }, 1);
     }
   };
